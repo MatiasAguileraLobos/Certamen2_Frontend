@@ -1,4 +1,5 @@
 import { Button } from "primereact/button"
+import EntradasContainer from "./containers/EntradasContainer"
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <h1>
-        <Button label="Cuidado" severity="warning" rounded ></Button>
+        <EntradasContainer></EntradasContainer>
       </h1>
     </>
   )
